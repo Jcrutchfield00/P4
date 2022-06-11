@@ -362,6 +362,10 @@ a:hover {
     z-index: 2;
 }
 
+footer ul{
+    list-style: none;
+    padding-left: 0;
+}
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
