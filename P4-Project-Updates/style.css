@@ -910,10 +910,11 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
-    .bloc {
+    /* .bloc {
         padding-left: constant(safe-area-inset-left);
         padding-right: constant(safe-area-inset-right);
-    }
+    } */
+    /* i believe it should be env not constant but i like the view of it not being there at all */
     .bloc-group,
     .bloc-group .bloc {
         display: block;
@@ -922,8 +923,8 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
+        /* padding-left: constant(safe-area-inset-left);
+        padding-right: constant(safe-area-inset-right); */
     }
 }
 
