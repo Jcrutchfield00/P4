@@ -375,6 +375,13 @@ a:hover {
 footer ul{
     list-style: none;
     padding-left: 0;
+    line-height: 1.8;
+    font-size: 17px;
+}
+.col-sm-4_header{
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #afb5c9;
 }
 @media (min-width: 768px) {
     .site-navigation {
@@ -664,7 +671,7 @@ label,
 .btn {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #575757;
 }
 
 
