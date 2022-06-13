@@ -286,6 +286,16 @@ a:hover {
 #bloc-2-services p {
     font-size: 11px;
 }
+.quote {
+    font-size: 14px!important;
+    font-style: italic;
+}
+.quote-bold {
+    font-weight: bold;
+}
+.quote_name{
+    font-size: 14px!important;
+}
 
 .navbar {
     margin-bottom: 0;
