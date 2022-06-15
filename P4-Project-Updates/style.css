@@ -312,7 +312,8 @@ a:hover {
 }
 
 .navbar-brand img {
-    max-height: 200px;
+    max-height: 40px;
+    width: auto;
     margin: 0 5px 0 0;
     display: inline;
 }
@@ -858,11 +859,11 @@ h4 {
 }
 
 .bg-atlanta-20made-20sign {
-    background-image: url("img/atlanta%20made%20sign.jpg");
+    background-image: url("img/ATL-blue.jpg");
 }
 
 .bg-atlanta-20made-20sign-20orange {
-    background-image: url("img/atlanta%20made%20sign%20orange.jpg");
+    background-image: url("img/ATL_orange.jpg");
 }
 
 @media (max-width: 1024px) {
