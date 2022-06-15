@@ -381,7 +381,7 @@ footer ul{
 .col-sm-4_header{
     font-size: 16px;
     text-transform: uppercase;
-    color: #afb5c9;
+    color: #afb5c9!important;
 }
 @media (min-width: 768px) {
     .site-navigation {
