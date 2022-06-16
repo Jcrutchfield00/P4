@@ -91,7 +91,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+    background: url("img/texture_paper.webp");
     background-size: 280px 280px;
 }
 
@@ -859,7 +859,7 @@ h4 {
 }
 
 .bg-atlanta-20made-20sign {
-    background-image: url("img/atlanta_blue.webp");
+    background-image: url("img/ATL_blue.webp");
 }
 
 .bg-atlanta-20made-20sign-20orange {
@@ -1068,6 +1068,10 @@ h4 {
         width: 180px;
         height: 320px;
     }
+    .bg-atlanta-20made-20sign {
+        background-image: url("img/ATL_blue_mobile.webp");
+    }
+    
 }
 
 @media (max-width: 400px) {
