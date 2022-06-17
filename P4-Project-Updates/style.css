@@ -91,7 +91,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+    background: url("img/texture_paper.webp");
     background-size: 280px 280px;
 }
 
@@ -286,6 +286,16 @@ a:hover {
 #bloc-2-services p {
     font-size: 11px;
 }
+.quote {
+    font-size: 14px!important;
+    font-style: italic;
+}
+.quote-bold {
+    font-weight: bold;
+}
+.quote_name{
+    font-size: 14px!important;
+}
 
 .navbar {
     margin-bottom: 0;
@@ -302,7 +312,8 @@ a:hover {
 }
 
 .navbar-brand img {
-    max-height: 200px;
+    max-height: 40px;
+    width: auto;
     margin: 0 5px 0 0;
     display: inline;
 }
@@ -365,6 +376,13 @@ a:hover {
 footer ul{
     list-style: none;
     padding-left: 0;
+    line-height: 1.8;
+    font-size: 17px;
+}
+.col-sm-4_header{
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #afb5c9!important;
 }
 @media (min-width: 768px) {
     .site-navigation {
@@ -512,6 +530,8 @@ button {
 .form-control {
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
+    margin-bottom: 20px;
+    font-size: 17px;
 }
 
 .scrollToTop {
@@ -651,13 +671,21 @@ h5,
 h6,
 p,
 label,
-.btn,
-a {
+.btn {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #575757;
 }
 
+
+a{
+    font-family: "helvetica";
+    font-weight: 400;
+    color:#afb5c9;
+}
+a:hover{
+color: #fff;
+}
 .container {
     max-width: 1000px;
 }
@@ -831,11 +859,11 @@ h4 {
 }
 
 .bg-atlanta-20made-20sign {
-    background-image: url("img/atlanta%20made%20sign.jpg");
+    background-image: url("img/ATL_blue.webp");
 }
 
 .bg-atlanta-20made-20sign-20orange {
-    background-image: url("img/atlanta%20made%20sign%20orange.jpg");
+    background-image: url("img/atlanta_orange.webp");
 }
 
 @media (max-width: 1024px) {
@@ -861,13 +889,13 @@ h4 {
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) {
     .b-parallax {
         background-attachment: scroll;
     }
@@ -885,10 +913,11 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
-    .bloc {
+    /* .bloc {
         padding-left: constant(safe-area-inset-left);
         padding-right: constant(safe-area-inset-right);
-    }
+    } */
+    /* i believe it should be env not constant but i like the view of it not being there at all */
     .bloc-group,
     .bloc-group .bloc {
         display: block;
@@ -897,8 +926,8 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
+        /* padding-left: constant(safe-area-inset-left);
+        padding-right: constant(safe-area-inset-right); */
     }
 }
 
@@ -1039,6 +1068,10 @@ h4 {
         width: 180px;
         height: 320px;
     }
+    .bg-atlanta-20made-20sign {
+        background-image: url("img/ATL_blue_mobile.webp");
+    }
+    
 }
 
 @media (max-width: 400px) {
