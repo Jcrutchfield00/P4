@@ -282,10 +282,10 @@ a:hover {
     padding-right: 0;
     padding-left: 0;
 }
-
+/* 
 #bloc-2-services p {
     font-size: 11px;
-}
+} */
 .quote {
     font-size: 14px!important;
     font-style: italic;
@@ -708,9 +708,9 @@ color: #fff;
     margin: auto auto auto auto;
 }
 
-p {
+/* p {
     font-size: 12px;
-}
+} */
 
 .tight-width-whitespace {
     max-width: 600px;
