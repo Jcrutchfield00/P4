@@ -66,6 +66,9 @@ height: 275px;
         transform: rotate(360deg);
     }
 }
+.loaded{
+    opacity: 0;
+}
 .bloc {
     width: 100%;
     clear: both;
@@ -882,6 +885,7 @@ h4 {
 
 .ltc-atomic-tangerine {
     color: #F3976C!important;
+    text-transform: uppercase;
 }
 
 .ltc-atomic-tangerine:hover {
